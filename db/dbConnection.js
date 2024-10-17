@@ -31,4 +31,4 @@ const checkForCollection = async (collectionName) => {
     console.log("Collection already exists!");
 }
 
-export default {connectDB, createCollection, checkForCollection};
+export {connectDB, createCollection, checkForCollection};

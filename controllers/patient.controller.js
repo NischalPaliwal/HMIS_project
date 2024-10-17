@@ -4,7 +4,7 @@ import { Patient } from  '../models/patient.models.js';
 const signUp =  async (req,res) => {
 
    // get user details
-   const { email, name,  password, phone} = req.body // destructing of data
+   const { email, name,  password, phone} = req.body // destructuring of data
    
    // validaion - not empty
     if(
