@@ -36,4 +36,7 @@ connectDB()
     
 })
 
+// call createCollection function here to create a new collection
+
+
 // export default app;
