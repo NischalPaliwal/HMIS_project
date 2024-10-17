@@ -1,6 +1,6 @@
 import express from "express";
 import cookieParser from "cookie-parser";
-import connectDB from "./db/dbConnection.js";
+import {connectDB, createCollection, checkForCollection} from "./db/dbConnection.js";
 
 
 
